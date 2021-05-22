@@ -1,0 +1,27 @@
+h1 {
+    /*color:#00CD00*/
+    font-style: italic;
+}
+body{
+    background-image: url("download.png");    
+    background-size: 100% 50%;
+    background-position: top 30px left 2px;
+    background-clip: padding-box;
+}
+.header{
+    background-color:#110055;
+    display:flex;
+    justify-content: space-between;
+}
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.footer{
+    display:flex;
+    justify-content: flex-end;
+}
+p, h2{
+    text-align: center;
+}
